@@ -1,0 +1,20 @@
+/* navbar */
+.nav{
+    background: #48484827;
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 6fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 10px;
+    position: fixed;
+        top: 0;
+    z-index: 2;
+    white-space: nowrap;
+    place-items: center;
+    padding-left: 22px;
+    font: normal bold 18px/150% Verdana, serif;
+}
+.highlight{
+    background: #000000;
+    color: white;
+    padding: 22px;
+}
